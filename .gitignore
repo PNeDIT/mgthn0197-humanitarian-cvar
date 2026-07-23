@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Gurobi
+*.log
+gurobi.lic
+
+# Experiment outputs (regenerate with run_experiments.py)
+results/
+.matplotlib/
+*.png
+*.csv
+!docs/references/*.pdf
+!submission/*.pdf
